@@ -128,7 +128,8 @@ system would deepen in a real deployment.
     vendor/            the five engine libraries, bundled so this runs standalone
     scripts/run_pipeline.py
     tests/
-    assets/  data/
+    assets/  
+    data/
 
 ## References
 
