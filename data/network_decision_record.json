@@ -1,0 +1,2668 @@
+{
+  "generated_by": "MSDN pipeline",
+  "contract_version": "1.0",
+  "network": [
+    {
+      "building": "FWD-A",
+      "role": "forward",
+      "cube_capacity": 2577.7,
+      "transfer_capacity": 40
+    },
+    {
+      "building": "FWD-B",
+      "role": "forward",
+      "cube_capacity": 2109.1,
+      "transfer_capacity": 40
+    },
+    {
+      "building": "STORAGE",
+      "role": "storage",
+      "cube_capacity": 362.6,
+      "transfer_capacity": 40
+    }
+  ],
+  "items": [
+    {
+      "item_id": "IT-0001",
+      "home": "STORAGE",
+      "daily_mean": 1.549,
+      "daily_std": 6.111,
+      "service_level": 0.9,
+      "min_qty": 143.5,
+      "ophq_qty": 167.5,
+      "max_qty": 191.5,
+      "has_policy": false,
+      "lead_time_days": 50.8,
+      "lead_time_std": 13.6,
+      "pack_size": 24,
+      "cbm_per_unit": 0.031
+    },
+    {
+      "item_id": "IT-0002",
+      "home": "FWD-A",
+      "daily_mean": 5.314,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 99.1,
+      "ophq_qty": 149.1,
+      "max_qty": 199.1,
+      "has_policy": true,
+      "lead_time_days": 15.7,
+      "lead_time_std": 2.3,
+      "pack_size": 12,
+      "cbm_per_unit": 0.017
+    },
+    {
+      "item_id": "IT-0003",
+      "home": "STORAGE",
+      "daily_mean": 4.861,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 288.5,
+      "ophq_qty": 324.5,
+      "max_qty": 360.5,
+      "has_policy": false,
+      "lead_time_days": 46.3,
+      "lead_time_std": 9.9,
+      "pack_size": 12,
+      "cbm_per_unit": 0.35
+    },
+    {
+      "item_id": "IT-0004",
+      "home": "FWD-A",
+      "daily_mean": 7.685,
+      "daily_std": 3.596,
+      "service_level": 0.98,
+      "min_qty": 776.7,
+      "ophq_qty": 848.7,
+      "max_qty": 920.7,
+      "has_policy": true,
+      "lead_time_days": 65.5,
+      "lead_time_std": 16.9,
+      "pack_size": 24,
+      "cbm_per_unit": 0.043
+    },
+    {
+      "item_id": "IT-0005",
+      "home": "STORAGE",
+      "daily_mean": 0.943,
+      "daily_std": 3.01,
+      "service_level": 0.9,
+      "min_qty": 23.2,
+      "ophq_qty": 43.2,
+      "max_qty": 63.2,
+      "has_policy": false,
+      "lead_time_days": 10.3,
+      "lead_time_std": 2.7,
+      "pack_size": 12,
+      "cbm_per_unit": 0.228
+    },
+    {
+      "item_id": "IT-0006",
+      "home": "FWD-A",
+      "daily_mean": 4.933,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 463.6,
+      "ophq_qty": 499.6,
+      "max_qty": 535.6,
+      "has_policy": true,
+      "lead_time_days": 71.8,
+      "lead_time_std": 17.3,
+      "pack_size": 6,
+      "cbm_per_unit": 0.038
+    },
+    {
+      "item_id": "IT-0007",
+      "home": "STORAGE",
+      "daily_mean": 0.896,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 85.5,
+      "ophq_qty": 109.5,
+      "max_qty": 133.5,
+      "has_policy": false,
+      "lead_time_days": 71.8,
+      "lead_time_std": 17.3,
+      "pack_size": 24,
+      "cbm_per_unit": 0.101
+    },
+    {
+      "item_id": "IT-0008",
+      "home": "FWD-B",
+      "daily_mean": 3.642,
+      "daily_std": 1.544,
+      "service_level": 0.95,
+      "min_qty": 321.4,
+      "ophq_qty": 369.4,
+      "max_qty": 417.4,
+      "has_policy": true,
+      "lead_time_days": 55.6,
+      "lead_time_std": 19.6,
+      "pack_size": 24,
+      "cbm_per_unit": 0.043
+    },
+    {
+      "item_id": "IT-0009",
+      "home": "STORAGE",
+      "daily_mean": 4.206,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 289.4,
+      "ophq_qty": 325.4,
+      "max_qty": 361.4,
+      "has_policy": false,
+      "lead_time_days": 50.8,
+      "lead_time_std": 13.6,
+      "pack_size": 12,
+      "cbm_per_unit": 0.044
+    },
+    {
+      "item_id": "IT-0010",
+      "home": "STORAGE",
+      "daily_mean": 3.354,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 63.1,
+      "ophq_qty": 87.1,
+      "max_qty": 111.1,
+      "has_policy": false,
+      "lead_time_days": 15.7,
+      "lead_time_std": 2.3,
+      "pack_size": 6,
+      "cbm_per_unit": 0.032
+    },
+    {
+      "item_id": "IT-0011",
+      "home": "STORAGE",
+      "daily_mean": 1.068,
+      "daily_std": 2.995,
+      "service_level": 0.9,
+      "min_qty": 118.5,
+      "ophq_qty": 130.5,
+      "max_qty": 142.5,
+      "has_policy": false,
+      "lead_time_days": 71.8,
+      "lead_time_std": 17.3,
+      "pack_size": 12,
+      "cbm_per_unit": 0.015
+    },
+    {
+      "item_id": "IT-0012",
+      "home": "FWD-B",
+      "daily_mean": 4.933,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 67.9,
+      "ophq_qty": 117.9,
+      "max_qty": 167.9,
+      "has_policy": true,
+      "lead_time_days": 10.3,
+      "lead_time_std": 2.7,
+      "pack_size": 2,
+      "cbm_per_unit": 0.041
+    },
+    {
+      "item_id": "IT-0013",
+      "home": "FWD-A",
+      "daily_mean": 6.337,
+      "daily_std": 2.332,
+      "service_level": 0.98,
+      "min_qty": 103.6,
+      "ophq_qty": 148.6,
+      "max_qty": 193.6,
+      "has_policy": true,
+      "lead_time_days": 10.3,
+      "lead_time_std": 2.7,
+      "pack_size": 1,
+      "cbm_per_unit": 0.046
+    },
+    {
+      "item_id": "IT-0014",
+      "home": "FWD-B",
+      "daily_mean": 7.002,
+      "daily_std": 3.255,
+      "service_level": 0.98,
+      "min_qty": 152.3,
+      "ophq_qty": 212.3,
+      "max_qty": 272.3,
+      "has_policy": true,
+      "lead_time_days": 15.7,
+      "lead_time_std": 2.3,
+      "pack_size": 12,
+      "cbm_per_unit": 0.024
+    },
+    {
+      "item_id": "IT-0015",
+      "home": "FWD-A",
+      "daily_mean": 2.32,
+      "daily_std": 9.788,
+      "service_level": 0.95,
+      "min_qty": 262.3,
+      "ophq_qty": 312.3,
+      "max_qty": 362.3,
+      "has_policy": true,
+      "lead_time_days": 50.8,
+      "lead_time_std": 13.6,
+      "pack_size": 6,
+      "cbm_per_unit": 0.349
+    },
+    {
+      "item_id": "IT-0016",
+      "home": "FWD-B",
+      "daily_mean": 5.816,
+      "daily_std": 2.75,
+      "service_level": 0.98,
+      "min_qty": 393.6,
+      "ophq_qty": 434.6,
+      "max_qty": 475.6,
+      "has_policy": true,
+      "lead_time_days": 46.3,
+      "lead_time_std": 9.9,
+      "pack_size": 1,
+      "cbm_per_unit": 0.057
+    },
+    {
+      "item_id": "IT-0017",
+      "home": "FWD-B",
+      "daily_mean": 10.692,
+      "daily_std": 4.009,
+      "service_level": 0.98,
+      "min_qty": 1154.0,
+      "ophq_qty": 1229.0,
+      "max_qty": 1304.0,
+      "has_policy": true,
+      "lead_time_days": 71.8,
+      "lead_time_std": 17.3,
+      "pack_size": 1,
+      "cbm_per_unit": 0.02
+    },
+    {
+      "item_id": "IT-0018",
+      "home": "FWD-A",
+      "daily_mean": 6.414,
+      "daily_std": 9.097,
+      "service_level": 0.98,
+      "min_qty": 738.0,
+      "ophq_qty": 784.0,
+      "max_qty": 830.0,
+      "has_policy": true,
+      "lead_time_days": 71.8,
+      "lead_time_std": 17.3,
+      "pack_size": 2,
+      "cbm_per_unit": 0.203
+    },
+    {
+      "item_id": "IT-0019",
+      "home": "FWD-A",
+      "daily_mean": 7.042,
+      "daily_std": 2.805,
+      "service_level": 0.98,
+      "min_qty": 760.6,
+      "ophq_qty": 810.6,
+      "max_qty": 860.6,
+      "has_policy": true,
+      "lead_time_days": 71.8,
+      "lead_time_std": 17.3,
+      "pack_size": 2,
+      "cbm_per_unit": 0.355
+    },
+    {
+      "item_id": "IT-0020",
+      "home": "FWD-A",
+      "daily_mean": 2.473,
+      "daily_std": 9.073,
+      "service_level": 0.95,
+      "min_qty": 322.8,
+      "ophq_qty": 342.8,
+      "max_qty": 362.8,
+      "has_policy": true,
+      "lead_time_days": 65.5,
+      "lead_time_std": 16.9,
+      "pack_size": 6,
+      "cbm_per_unit": 0.032
+    },
+    {
+      "item_id": "IT-0021",
+      "home": "FWD-A",
+      "daily_mean": 3.913,
+      "daily_std": 3.643,
+      "service_level": 0.95,
+      "min_qty": 89.4,
+      "ophq_qty": 139.4,
+      "max_qty": 189.4,
+      "has_policy": true,
+      "lead_time_days": 15.7,
+      "lead_time_std": 2.3,
+      "pack_size": 2,
+      "cbm_per_unit": 0.282
+    },
+    {
+      "item_id": "IT-0022",
+      "home": "FWD-A",
+      "daily_mean": 7.44,
+      "daily_std": 4.245,
+      "service_level": 0.98,
+      "min_qty": 102.4,
+      "ophq_qty": 174.4,
+      "max_qty": 246.4,
+      "has_policy": true,
+      "lead_time_days": 8.7,
+      "lead_time_std": 1.8,
+      "pack_size": 24,
+      "cbm_per_unit": 0.176
+    },
+    {
+      "item_id": "IT-0023",
+      "home": "FWD-B",
+      "daily_mean": 10.52,
+      "daily_std": 4.964,
+      "service_level": 0.98,
+      "min_qty": 175.2,
+      "ophq_qty": 259.2,
+      "max_qty": 343.2,
+      "has_policy": true,
+      "lead_time_days": 10.3,
+      "lead_time_std": 2.7,
+      "pack_size": 12,
+      "cbm_per_unit": 0.262
+    },
+    {
+      "item_id": "IT-0024",
+      "home": "FWD-B",
+      "daily_mean": 5.732,
+      "daily_std": 1.891,
+      "service_level": 0.98,
+      "min_qty": 617.9,
+      "ophq_qty": 665.9,
+      "max_qty": 713.9,
+      "has_policy": true,
+      "lead_time_days": 71.8,
+      "lead_time_std": 17.3,
+      "pack_size": 24,
+      "cbm_per_unit": 0.076
+    },
+    {
+      "item_id": "IT-0025",
+      "home": "FWD-A",
+      "daily_mean": 5.844,
+      "daily_std": 2.428,
+      "service_level": 0.98,
+      "min_qty": 563.1,
+      "ophq_qty": 611.1,
+      "max_qty": 659.1,
+      "has_policy": true,
+      "lead_time_days": 55.6,
+      "lead_time_std": 19.6,
+      "pack_size": 24,
+      "cbm_per_unit": 0.081
+    },
+    {
+      "item_id": "IT-0026",
+      "home": "STORAGE",
+      "daily_mean": 12.347,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 169.9,
+      "ophq_qty": 265.9,
+      "max_qty": 361.9,
+      "has_policy": false,
+      "lead_time_days": 10.3,
+      "lead_time_std": 2.7,
+      "pack_size": 12,
+      "cbm_per_unit": 0.231
+    },
+    {
+      "item_id": "IT-0027",
+      "home": "STORAGE",
+      "daily_mean": 1.323,
+      "daily_std": 8.134,
+      "service_level": 0.9,
+      "min_qty": 56.2,
+      "ophq_qty": 66.2,
+      "max_qty": 76.2,
+      "has_policy": false,
+      "lead_time_days": 15.7,
+      "lead_time_std": 2.3,
+      "pack_size": 2,
+      "cbm_per_unit": 0.251
+    },
+    {
+      "item_id": "IT-0028",
+      "home": "FWD-A",
+      "daily_mean": 10.59,
+      "daily_std": 4.327,
+      "service_level": 0.98,
+      "min_qty": 1068.2,
+      "ophq_qty": 1144.2,
+      "max_qty": 1220.2,
+      "has_policy": true,
+      "lead_time_days": 65.5,
+      "lead_time_std": 16.9,
+      "pack_size": 2,
+      "cbm_per_unit": 0.168
+    },
+    {
+      "item_id": "IT-0029",
+      "home": "FWD-B",
+      "daily_mean": 4.356,
+      "daily_std": 0.95,
+      "service_level": 0.95,
+      "min_qty": 383.1,
+      "ophq_qty": 414.1,
+      "max_qty": 445.1,
+      "has_policy": true,
+      "lead_time_days": 55.6,
+      "lead_time_std": 19.6,
+      "pack_size": 1,
+      "cbm_per_unit": 0.112
+    },
+    {
+      "item_id": "IT-0030",
+      "home": "STORAGE",
+      "daily_mean": 9.782,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 182.5,
+      "ophq_qty": 252.5,
+      "max_qty": 322.5,
+      "has_policy": false,
+      "lead_time_days": 15.7,
+      "lead_time_std": 2.3,
+      "pack_size": 2,
+      "cbm_per_unit": 0.113
+    },
+    {
+      "item_id": "IT-0031",
+      "home": "STORAGE",
+      "daily_mean": 0.801,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 54.9,
+      "ophq_qty": 78.9,
+      "max_qty": 102.9,
+      "has_policy": false,
+      "lead_time_days": 50.8,
+      "lead_time_std": 13.6,
+      "pack_size": 24,
+      "cbm_per_unit": 0.107
+    },
+    {
+      "item_id": "IT-0032",
+      "home": "STORAGE",
+      "daily_mean": 1.972,
+      "daily_std": 5.518,
+      "service_level": 0.9,
+      "min_qty": 44.9,
+      "ophq_qty": 94.9,
+      "max_qty": 144.9,
+      "has_policy": false,
+      "lead_time_days": 10.3,
+      "lead_time_std": 2.7,
+      "pack_size": 1,
+      "cbm_per_unit": 0.06
+    },
+    {
+      "item_id": "IT-0033",
+      "home": "FWD-B",
+      "daily_mean": 5.314,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 313.4,
+      "ophq_qty": 351.4,
+      "max_qty": 389.4,
+      "has_policy": true,
+      "lead_time_days": 46.3,
+      "lead_time_std": 9.9,
+      "pack_size": 2,
+      "cbm_per_unit": 0.014
+    },
+    {
+      "item_id": "IT-0034",
+      "home": "FWD-B",
+      "daily_mean": 5.086,
+      "daily_std": 9.457,
+      "service_level": 0.98,
+      "min_qty": 609.6,
+      "ophq_qty": 645.6,
+      "max_qty": 681.6,
+      "has_policy": true,
+      "lead_time_days": 71.8,
+      "lead_time_std": 17.3,
+      "pack_size": 1,
+      "cbm_per_unit": 0.188
+    },
+    {
+      "item_id": "IT-0035",
+      "home": "FWD-B",
+      "daily_mean": 11.055,
+      "daily_std": 4.476,
+      "service_level": 0.98,
+      "min_qty": 1194.2,
+      "ophq_qty": 1272.2,
+      "max_qty": 1350.2,
+      "has_policy": true,
+      "lead_time_days": 71.8,
+      "lead_time_std": 17.3,
+      "pack_size": 2,
+      "cbm_per_unit": 0.121
+    },
+    {
+      "item_id": "IT-0036",
+      "home": "FWD-A",
+      "daily_mean": 5.664,
+      "daily_std": 3.088,
+      "service_level": 0.98,
+      "min_qty": 385.2,
+      "ophq_qty": 435.2,
+      "max_qty": 485.2,
+      "has_policy": true,
+      "lead_time_days": 46.3,
+      "lead_time_std": 9.9,
+      "pack_size": 1,
+      "cbm_per_unit": 0.201
+    },
+    {
+      "item_id": "IT-0037",
+      "home": "STORAGE",
+      "daily_mean": 2.479,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 147.2,
+      "ophq_qty": 165.2,
+      "max_qty": 183.2,
+      "has_policy": false,
+      "lead_time_days": 46.3,
+      "lead_time_std": 9.9,
+      "pack_size": 2,
+      "cbm_per_unit": 0.034
+    },
+    {
+      "item_id": "IT-0038",
+      "home": "FWD-B",
+      "daily_mean": 6.734,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 459.4,
+      "ophq_qty": 507.4,
+      "max_qty": 555.4,
+      "has_policy": true,
+      "lead_time_days": 50.8,
+      "lead_time_std": 13.6,
+      "pack_size": 24,
+      "cbm_per_unit": 0.023
+    },
+    {
+      "item_id": "IT-0039",
+      "home": "STORAGE",
+      "daily_mean": 5.503,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 446.1,
+      "ophq_qty": 488.1,
+      "max_qty": 530.1,
+      "has_policy": false,
+      "lead_time_days": 55.6,
+      "lead_time_std": 19.6,
+      "pack_size": 6,
+      "cbm_per_unit": 0.036
+    },
+    {
+      "item_id": "IT-0040",
+      "home": "STORAGE",
+      "daily_mean": 2.091,
+      "daily_std": 6.49,
+      "service_level": 0.95,
+      "min_qty": 189.8,
+      "ophq_qty": 213.8,
+      "max_qty": 237.8,
+      "has_policy": false,
+      "lead_time_days": 46.3,
+      "lead_time_std": 9.9,
+      "pack_size": 24,
+      "cbm_per_unit": 0.279
+    },
+    {
+      "item_id": "IT-0041",
+      "home": "FWD-A",
+      "daily_mean": 4.803,
+      "daily_std": 1.282,
+      "service_level": 0.98,
+      "min_qty": 321.6,
+      "ophq_qty": 357.6,
+      "max_qty": 393.6,
+      "has_policy": true,
+      "lead_time_days": 46.3,
+      "lead_time_std": 9.9,
+      "pack_size": 6,
+      "cbm_per_unit": 0.028
+    },
+    {
+      "item_id": "IT-0042",
+      "home": "STORAGE",
+      "daily_mean": 1.491,
+      "daily_std": 6.53,
+      "service_level": 0.95,
+      "min_qty": 209.2,
+      "ophq_qty": 259.2,
+      "max_qty": 309.2,
+      "has_policy": false,
+      "lead_time_days": 65.5,
+      "lead_time_std": 16.9,
+      "pack_size": 12,
+      "cbm_per_unit": 0.042
+    },
+    {
+      "item_id": "IT-0043",
+      "home": "FWD-B",
+      "daily_mean": 4.689,
+      "daily_std": 1.812,
+      "service_level": 0.98,
+      "min_qty": 472.6,
+      "ophq_qty": 506.6,
+      "max_qty": 540.6,
+      "has_policy": true,
+      "lead_time_days": 65.5,
+      "lead_time_std": 16.9,
+      "pack_size": 2,
+      "cbm_per_unit": 0.016
+    },
+    {
+      "item_id": "IT-0044",
+      "home": "FWD-B",
+      "daily_mean": 6.946,
+      "daily_std": 2.383,
+      "service_level": 0.98,
+      "min_qty": 749.0,
+      "ophq_qty": 803.0,
+      "max_qty": 857.0,
+      "has_policy": true,
+      "lead_time_days": 71.8,
+      "lead_time_std": 17.3,
+      "pack_size": 6,
+      "cbm_per_unit": 0.212
+    },
+    {
+      "item_id": "IT-0045",
+      "home": "STORAGE",
+      "daily_mean": 1.218,
+      "daily_std": 5.267,
+      "service_level": 0.9,
+      "min_qty": 117.4,
+      "ophq_qty": 137.4,
+      "max_qty": 157.4,
+      "has_policy": false,
+      "lead_time_days": 50.8,
+      "lead_time_std": 13.6,
+      "pack_size": 12,
+      "cbm_per_unit": 0.146
+    },
+    {
+      "item_id": "IT-0046",
+      "home": "FWD-A",
+      "daily_mean": 4.673,
+      "daily_std": 4.996,
+      "service_level": 0.95,
+      "min_qty": 357.2,
+      "ophq_qty": 393.2,
+      "max_qty": 429.2,
+      "has_policy": true,
+      "lead_time_days": 50.8,
+      "lead_time_std": 13.6,
+      "pack_size": 12,
+      "cbm_per_unit": 0.089
+    },
+    {
+      "item_id": "IT-0047",
+      "home": "STORAGE",
+      "daily_mean": 10.856,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 896.3,
+      "ophq_qty": 972.3,
+      "max_qty": 1048.3,
+      "has_policy": false,
+      "lead_time_days": 55.6,
+      "lead_time_std": 19.6,
+      "pack_size": 2,
+      "cbm_per_unit": 0.059
+    },
+    {
+      "item_id": "IT-0048",
+      "home": "STORAGE",
+      "daily_mean": 1.733,
+      "daily_std": 7.46,
+      "service_level": 0.9,
+      "min_qty": 150.9,
+      "ophq_qty": 174.9,
+      "max_qty": 198.9,
+      "has_policy": false,
+      "lead_time_days": 46.3,
+      "lead_time_std": 9.9,
+      "pack_size": 24,
+      "cbm_per_unit": 0.08
+    },
+    {
+      "item_id": "IT-0049",
+      "home": "FWD-A",
+      "daily_mean": 4.909,
+      "daily_std": 4.691,
+      "service_level": 0.98,
+      "min_qty": 76.4,
+      "ophq_qty": 112.4,
+      "max_qty": 148.4,
+      "has_policy": true,
+      "lead_time_days": 8.7,
+      "lead_time_std": 1.8,
+      "pack_size": 12,
+      "cbm_per_unit": 0.026
+    },
+    {
+      "item_id": "IT-0050",
+      "home": "FWD-A",
+      "daily_mean": 3.057,
+      "daily_std": 11.261,
+      "service_level": 0.95,
+      "min_qty": 397.4,
+      "ophq_qty": 419.4,
+      "max_qty": 441.4,
+      "has_policy": true,
+      "lead_time_days": 65.5,
+      "lead_time_std": 16.9,
+      "pack_size": 2,
+      "cbm_per_unit": 0.166
+    },
+    {
+      "item_id": "IT-0051",
+      "home": "STORAGE",
+      "daily_mean": 1.653,
+      "daily_std": 5.456,
+      "service_level": 0.9,
+      "min_qty": 54.8,
+      "ophq_qty": 104.8,
+      "max_qty": 154.8,
+      "has_policy": false,
+      "lead_time_days": 15.7,
+      "lead_time_std": 2.3,
+      "pack_size": 12,
+      "cbm_per_unit": 0.045
+    },
+    {
+      "item_id": "IT-0052",
+      "home": "FWD-A",
+      "daily_mean": 5.314,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 463.1,
+      "ophq_qty": 513.1,
+      "max_qty": 563.1,
+      "has_policy": true,
+      "lead_time_days": 65.5,
+      "lead_time_std": 16.9,
+      "pack_size": 24,
+      "cbm_per_unit": 0.104
+    },
+    {
+      "item_id": "IT-0053",
+      "home": "FWD-B",
+      "daily_mean": 7.799,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 679.8,
+      "ophq_qty": 751.8,
+      "max_qty": 823.8,
+      "has_policy": true,
+      "lead_time_days": 65.5,
+      "lead_time_std": 16.9,
+      "pack_size": 24,
+      "cbm_per_unit": 0.05
+    },
+    {
+      "item_id": "IT-0054",
+      "home": "STORAGE",
+      "daily_mean": 0.922,
+      "daily_std": 2.455,
+      "service_level": 0.9,
+      "min_qty": 84.7,
+      "ophq_qty": 96.7,
+      "max_qty": 108.7,
+      "has_policy": false,
+      "lead_time_days": 55.6,
+      "lead_time_std": 19.6,
+      "pack_size": 6,
+      "cbm_per_unit": 0.033
+    },
+    {
+      "item_id": "IT-0055",
+      "home": "STORAGE",
+      "daily_mean": 1.004,
+      "daily_std": 2.965,
+      "service_level": 0.9,
+      "min_qty": 20.0,
+      "ophq_qty": 30.0,
+      "max_qty": 40.0,
+      "has_policy": false,
+      "lead_time_days": 8.7,
+      "lead_time_std": 1.8,
+      "pack_size": 2,
+      "cbm_per_unit": 0.392
+    },
+    {
+      "item_id": "IT-0056",
+      "home": "STORAGE",
+      "daily_mean": 1.022,
+      "daily_std": 5.875,
+      "service_level": 0.9,
+      "min_qty": 100.4,
+      "ophq_qty": 112.4,
+      "max_qty": 124.4,
+      "has_policy": false,
+      "lead_time_days": 46.3,
+      "lead_time_std": 9.9,
+      "pack_size": 6,
+      "cbm_per_unit": 0.017
+    },
+    {
+      "item_id": "IT-0057",
+      "home": "FWD-A",
+      "daily_mean": 7.717,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 143.9,
+      "ophq_qty": 203.9,
+      "max_qty": 263.9,
+      "has_policy": true,
+      "lead_time_days": 15.7,
+      "lead_time_std": 2.3,
+      "pack_size": 6,
+      "cbm_per_unit": 0.057
+    },
+    {
+      "item_id": "IT-0058",
+      "home": "STORAGE",
+      "daily_mean": 5.743,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 80.0,
+      "ophq_qty": 122.0,
+      "max_qty": 164.0,
+      "has_policy": false,
+      "lead_time_days": 10.3,
+      "lead_time_std": 2.7,
+      "pack_size": 6,
+      "cbm_per_unit": 0.341
+    },
+    {
+      "item_id": "IT-0059",
+      "home": "FWD-B",
+      "daily_mean": 7.799,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 629.5,
+      "ophq_qty": 701.5,
+      "max_qty": 773.5,
+      "has_policy": true,
+      "lead_time_days": 55.6,
+      "lead_time_std": 19.6,
+      "pack_size": 24,
+      "cbm_per_unit": 0.023
+    },
+    {
+      "item_id": "IT-0060",
+      "home": "STORAGE",
+      "daily_mean": 0.954,
+      "daily_std": 3.033,
+      "service_level": 0.9,
+      "min_qty": 31.3,
+      "ophq_qty": 81.3,
+      "max_qty": 131.3,
+      "has_policy": false,
+      "lead_time_days": 15.7,
+      "lead_time_std": 2.3,
+      "pack_size": 24,
+      "cbm_per_unit": 0.04
+    },
+    {
+      "item_id": "IT-0061",
+      "home": "FWD-A",
+      "daily_mean": 4.933,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 92.0,
+      "ophq_qty": 128.0,
+      "max_qty": 164.0,
+      "has_policy": true,
+      "lead_time_days": 15.7,
+      "lead_time_std": 2.3,
+      "pack_size": 12,
+      "cbm_per_unit": 0.167
+    },
+    {
+      "item_id": "IT-0062",
+      "home": "FWD-A",
+      "daily_mean": 3.399,
+      "daily_std": 20.349,
+      "service_level": 0.98,
+      "min_qty": 245.3,
+      "ophq_qty": 269.3,
+      "max_qty": 293.3,
+      "has_policy": true,
+      "lead_time_days": 10.3,
+      "lead_time_std": 2.7,
+      "pack_size": 12,
+      "cbm_per_unit": 0.014
+    },
+    {
+      "item_id": "IT-0063",
+      "home": "STORAGE",
+      "daily_mean": 1.13,
+      "daily_std": 3.474,
+      "service_level": 0.9,
+      "min_qty": 86.5,
+      "ophq_qty": 98.5,
+      "max_qty": 110.5,
+      "has_policy": false,
+      "lead_time_days": 46.3,
+      "lead_time_std": 9.9,
+      "pack_size": 6,
+      "cbm_per_unit": 0.023
+    },
+    {
+      "item_id": "IT-0064",
+      "home": "STORAGE",
+      "daily_mean": 8.341,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 495.5,
+      "ophq_qty": 554.5,
+      "max_qty": 613.5,
+      "has_policy": false,
+      "lead_time_days": 46.3,
+      "lead_time_std": 9.9,
+      "pack_size": 1,
+      "cbm_per_unit": 0.24
+    },
+    {
+      "item_id": "IT-0065",
+      "home": "FWD-A",
+      "daily_mean": 7.761,
+      "daily_std": 2.246,
+      "service_level": 0.98,
+      "min_qty": 613.5,
+      "ophq_qty": 668.5,
+      "max_qty": 723.5,
+      "has_policy": true,
+      "lead_time_days": 50.8,
+      "lead_time_std": 13.6,
+      "pack_size": 1,
+      "cbm_per_unit": 0.341
+    },
+    {
+      "item_id": "IT-0066",
+      "home": "FWD-A",
+      "daily_mean": 5.899,
+      "daily_std": 3.178,
+      "service_level": 0.98,
+      "min_qty": 130.6,
+      "ophq_qty": 180.6,
+      "max_qty": 230.6,
+      "has_policy": true,
+      "lead_time_days": 15.7,
+      "lead_time_std": 2.3,
+      "pack_size": 24,
+      "cbm_per_unit": 0.266
+    },
+    {
+      "item_id": "IT-0067",
+      "home": "FWD-A",
+      "daily_mean": 2.425,
+      "daily_std": 15.551,
+      "service_level": 0.95,
+      "min_qty": 432.3,
+      "ophq_qty": 452.3,
+      "max_qty": 472.3,
+      "has_policy": true,
+      "lead_time_days": 65.5,
+      "lead_time_std": 16.9,
+      "pack_size": 1,
+      "cbm_per_unit": 0.114
+    },
+    {
+      "item_id": "IT-0068",
+      "home": "FWD-A",
+      "daily_mean": 2.979,
+      "daily_std": 8.275,
+      "service_level": 0.95,
+      "min_qty": 282.2,
+      "ophq_qty": 304.2,
+      "max_qty": 326.2,
+      "has_policy": true,
+      "lead_time_days": 50.8,
+      "lead_time_std": 13.6,
+      "pack_size": 2,
+      "cbm_per_unit": 0.381
+    },
+    {
+      "item_id": "IT-0069",
+      "home": "FWD-B",
+      "daily_mean": 1.156,
+      "daily_std": 8.154,
+      "service_level": 0.95,
+      "min_qty": 62.6,
+      "ophq_qty": 112.6,
+      "max_qty": 162.6,
+      "has_policy": true,
+      "lead_time_days": 10.3,
+      "lead_time_std": 2.7,
+      "pack_size": 24,
+      "cbm_per_unit": 0.083
+    },
+    {
+      "item_id": "IT-0070",
+      "home": "FWD-A",
+      "daily_mean": 3.566,
+      "daily_std": 0.955,
+      "service_level": 0.95,
+      "min_qty": 224.2,
+      "ophq_qty": 260.2,
+      "max_qty": 296.2,
+      "has_policy": true,
+      "lead_time_days": 46.3,
+      "lead_time_std": 9.9,
+      "pack_size": 12,
+      "cbm_per_unit": 0.094
+    },
+    {
+      "item_id": "IT-0071",
+      "home": "STORAGE",
+      "daily_mean": 5.039,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 349.2,
+      "ophq_qty": 399.2,
+      "max_qty": 449.2,
+      "has_policy": false,
+      "lead_time_days": 50.8,
+      "lead_time_std": 13.6,
+      "pack_size": 24,
+      "cbm_per_unit": 0.392
+    },
+    {
+      "item_id": "IT-0072",
+      "home": "STORAGE",
+      "daily_mean": 1.678,
+      "daily_std": 4.273,
+      "service_level": 0.9,
+      "min_qty": 31.6,
+      "ophq_qty": 55.6,
+      "max_qty": 79.6,
+      "has_policy": false,
+      "lead_time_days": 8.7,
+      "lead_time_std": 1.8,
+      "pack_size": 24,
+      "cbm_per_unit": 0.036
+    },
+    {
+      "item_id": "IT-0073",
+      "home": "STORAGE",
+      "daily_mean": 2.794,
+      "daily_std": 4.941,
+      "service_level": 0.9,
+      "min_qty": 211.0,
+      "ophq_qty": 235.0,
+      "max_qty": 259.0,
+      "has_policy": false,
+      "lead_time_days": 50.8,
+      "lead_time_std": 13.6,
+      "pack_size": 24,
+      "cbm_per_unit": 0.011
+    },
+    {
+      "item_id": "IT-0074",
+      "home": "FWD-A",
+      "daily_mean": 9.225,
+      "daily_std": 11.844,
+      "service_level": 0.98,
+      "min_qty": 1049.6,
+      "ophq_qty": 1121.6,
+      "max_qty": 1193.6,
+      "has_policy": true,
+      "lead_time_days": 71.8,
+      "lead_time_std": 17.3,
+      "pack_size": 24,
+      "cbm_per_unit": 0.217
+    },
+    {
+      "item_id": "IT-0075",
+      "home": "FWD-B",
+      "daily_mean": 10.779,
+      "daily_std": 4.143,
+      "service_level": 0.98,
+      "min_qty": 140.9,
+      "ophq_qty": 224.9,
+      "max_qty": 308.9,
+      "has_policy": true,
+      "lead_time_days": 8.7,
+      "lead_time_std": 1.8,
+      "pack_size": 12,
+      "cbm_per_unit": 0.045
+    },
+    {
+      "item_id": "IT-0076",
+      "home": "FWD-A",
+      "daily_mean": 5.314,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 73.1,
+      "ophq_qty": 123.1,
+      "max_qty": 173.1,
+      "has_policy": true,
+      "lead_time_days": 10.3,
+      "lead_time_std": 2.7,
+      "pack_size": 12,
+      "cbm_per_unit": 0.04
+    },
+    {
+      "item_id": "IT-0077",
+      "home": "STORAGE",
+      "daily_mean": 1.116,
+      "daily_std": 4.548,
+      "service_level": 0.9,
+      "min_qty": 96.2,
+      "ophq_qty": 120.2,
+      "max_qty": 144.2,
+      "has_policy": false,
+      "lead_time_days": 46.3,
+      "lead_time_std": 9.9,
+      "pack_size": 24,
+      "cbm_per_unit": 0.019
+    },
+    {
+      "item_id": "IT-0078",
+      "home": "FWD-A",
+      "daily_mean": 5.481,
+      "daily_std": 2.389,
+      "service_level": 0.98,
+      "min_qty": 592.7,
+      "ophq_qty": 642.7,
+      "max_qty": 692.7,
+      "has_policy": true,
+      "lead_time_days": 71.8,
+      "lead_time_std": 17.3,
+      "pack_size": 12,
+      "cbm_per_unit": 0.125
+    },
+    {
+      "item_id": "IT-0079",
+      "home": "FWD-A",
+      "daily_mean": 5.773,
+      "daily_std": 7.315,
+      "service_level": 0.98,
+      "min_qty": 422.9,
+      "ophq_qty": 464.9,
+      "max_qty": 506.9,
+      "has_policy": true,
+      "lead_time_days": 46.3,
+      "lead_time_std": 9.9,
+      "pack_size": 2,
+      "cbm_per_unit": 0.147
+    },
+    {
+      "item_id": "IT-0080",
+      "home": "FWD-A",
+      "daily_mean": 11.094,
+      "daily_std": 4.107,
+      "service_level": 0.98,
+      "min_qty": 1067.8,
+      "ophq_qty": 1163.8,
+      "max_qty": 1259.8,
+      "has_policy": true,
+      "lead_time_days": 55.6,
+      "lead_time_std": 19.6,
+      "pack_size": 24,
+      "cbm_per_unit": 0.049
+    },
+    {
+      "item_id": "IT-0081",
+      "home": "FWD-A",
+      "daily_mean": 3.579,
+      "daily_std": 1.07,
+      "service_level": 0.95,
+      "min_qty": 53.7,
+      "ophq_qty": 103.7,
+      "max_qty": 153.7,
+      "has_policy": true,
+      "lead_time_days": 10.3,
+      "lead_time_std": 2.7,
+      "pack_size": 1,
+      "cbm_per_unit": 0.038
+    },
+    {
+      "item_id": "IT-0082",
+      "home": "FWD-A",
+      "daily_mean": 1.091,
+      "daily_std": 10.077,
+      "service_level": 0.95,
+      "min_qty": 52.3,
+      "ophq_qty": 62.3,
+      "max_qty": 72.3,
+      "has_policy": true,
+      "lead_time_days": 8.7,
+      "lead_time_std": 1.8,
+      "pack_size": 1,
+      "cbm_per_unit": 0.035
+    },
+    {
+      "item_id": "IT-0083",
+      "home": "FWD-B",
+      "daily_mean": 10.491,
+      "daily_std": 3.548,
+      "service_level": 0.98,
+      "min_qty": 1009.1,
+      "ophq_qty": 1093.1,
+      "max_qty": 1177.1,
+      "has_policy": true,
+      "lead_time_days": 55.6,
+      "lead_time_std": 19.6,
+      "pack_size": 12,
+      "cbm_per_unit": 0.263
+    },
+    {
+      "item_id": "IT-0084",
+      "home": "FWD-B",
+      "daily_mean": 4.717,
+      "daily_std": 1.114,
+      "service_level": 0.98,
+      "min_qty": 372.4,
+      "ophq_qty": 422.4,
+      "max_qty": 472.4,
+      "has_policy": true,
+      "lead_time_days": 50.8,
+      "lead_time_std": 13.6,
+      "pack_size": 24,
+      "cbm_per_unit": 0.284
+    },
+    {
+      "item_id": "IT-0085",
+      "home": "STORAGE",
+      "daily_mean": 6.092,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 113.6,
+      "ophq_qty": 163.6,
+      "max_qty": 213.6,
+      "has_policy": false,
+      "lead_time_days": 15.7,
+      "lead_time_std": 2.3,
+      "pack_size": 12,
+      "cbm_per_unit": 0.019
+    },
+    {
+      "item_id": "IT-0086",
+      "home": "FWD-A",
+      "daily_mean": 3.729,
+      "daily_std": 4.096,
+      "service_level": 0.95,
+      "min_qty": 88.7,
+      "ophq_qty": 124.7,
+      "max_qty": 160.7,
+      "has_policy": true,
+      "lead_time_days": 15.7,
+      "lead_time_std": 2.3,
+      "pack_size": 12,
+      "cbm_per_unit": 0.301
+    },
+    {
+      "item_id": "IT-0087",
+      "home": "FWD-B",
+      "daily_mean": 6.734,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 125.6,
+      "ophq_qty": 173.6,
+      "max_qty": 221.6,
+      "has_policy": true,
+      "lead_time_days": 15.7,
+      "lead_time_std": 2.3,
+      "pack_size": 1,
+      "cbm_per_unit": 0.01
+    },
+    {
+      "item_id": "IT-0088",
+      "home": "FWD-A",
+      "daily_mean": 4.36,
+      "daily_std": 2.167,
+      "service_level": 0.98,
+      "min_qty": 472.5,
+      "ophq_qty": 520.5,
+      "max_qty": 568.5,
+      "has_policy": true,
+      "lead_time_days": 71.8,
+      "lead_time_std": 17.3,
+      "pack_size": 24,
+      "cbm_per_unit": 0.047
+    },
+    {
+      "item_id": "IT-0089",
+      "home": "STORAGE",
+      "daily_mean": 7.426,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 511.6,
+      "ophq_qty": 565.6,
+      "max_qty": 619.6,
+      "has_policy": false,
+      "lead_time_days": 50.8,
+      "lead_time_std": 13.6,
+      "pack_size": 6,
+      "cbm_per_unit": 0.117
+    },
+    {
+      "item_id": "IT-0090",
+      "home": "FWD-B",
+      "daily_mean": 5.116,
+      "daily_std": 5.788,
+      "service_level": 0.98,
+      "min_qty": 537.1,
+      "ophq_qty": 573.1,
+      "max_qty": 609.1,
+      "has_policy": true,
+      "lead_time_days": 65.5,
+      "lead_time_std": 16.9,
+      "pack_size": 6,
+      "cbm_per_unit": 0.07
+    },
+    {
+      "item_id": "IT-0091",
+      "home": "STORAGE",
+      "daily_mean": 2.05,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 28.6,
+      "ophq_qty": 44.6,
+      "max_qty": 60.6,
+      "has_policy": false,
+      "lead_time_days": 10.3,
+      "lead_time_std": 2.7,
+      "pack_size": 2,
+      "cbm_per_unit": 0.036
+    },
+    {
+      "item_id": "IT-0092",
+      "home": "FWD-B",
+      "daily_mean": 7.986,
+      "daily_std": 11.601,
+      "service_level": 0.98,
+      "min_qty": 227.1,
+      "ophq_qty": 283.1,
+      "max_qty": 339.1,
+      "has_policy": true,
+      "lead_time_days": 15.7,
+      "lead_time_std": 2.3,
+      "pack_size": 2,
+      "cbm_per_unit": 0.131
+    },
+    {
+      "item_id": "IT-0093",
+      "home": "FWD-A",
+      "daily_mean": 1.956,
+      "daily_std": 8.975,
+      "service_level": 0.95,
+      "min_qty": 286.2,
+      "ophq_qty": 310.2,
+      "max_qty": 334.2,
+      "has_policy": true,
+      "lead_time_days": 65.5,
+      "lead_time_std": 16.9,
+      "pack_size": 24,
+      "cbm_per_unit": 0.108
+    },
+    {
+      "item_id": "IT-0094",
+      "home": "STORAGE",
+      "daily_mean": 0.66,
+      "daily_std": 3.696,
+      "service_level": 0.9,
+      "min_qty": 70.2,
+      "ophq_qty": 82.2,
+      "max_qty": 94.2,
+      "has_policy": false,
+      "lead_time_days": 50.8,
+      "lead_time_std": 13.6,
+      "pack_size": 12,
+      "cbm_per_unit": 0.034
+    },
+    {
+      "item_id": "IT-0095",
+      "home": "FWD-B",
+      "daily_mean": 6.035,
+      "daily_std": 5.803,
+      "service_level": 0.98,
+      "min_qty": 94.1,
+      "ophq_qty": 144.1,
+      "max_qty": 194.1,
+      "has_policy": true,
+      "lead_time_days": 8.7,
+      "lead_time_std": 1.8,
+      "pack_size": 2,
+      "cbm_per_unit": 0.147
+    },
+    {
+      "item_id": "IT-0096",
+      "home": "FWD-B",
+      "daily_mean": 7.187,
+      "daily_std": 2.652,
+      "service_level": 0.98,
+      "min_qty": 569.5,
+      "ophq_qty": 629.5,
+      "max_qty": 689.5,
+      "has_policy": true,
+      "lead_time_days": 50.8,
+      "lead_time_std": 13.6,
+      "pack_size": 12,
+      "cbm_per_unit": 0.107
+    },
+    {
+      "item_id": "IT-0097",
+      "home": "STORAGE",
+      "daily_mean": 2.082,
+      "daily_std": 3.803,
+      "service_level": 0.9,
+      "min_qty": 158.2,
+      "ophq_qty": 182.2,
+      "max_qty": 206.2,
+      "has_policy": false,
+      "lead_time_days": 50.8,
+      "lead_time_std": 13.6,
+      "pack_size": 12,
+      "cbm_per_unit": 0.116
+    },
+    {
+      "item_id": "IT-0098",
+      "home": "STORAGE",
+      "daily_mean": 1.439,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 127.6,
+      "ophq_qty": 139.6,
+      "max_qty": 151.6,
+      "has_policy": false,
+      "lead_time_days": 65.5,
+      "lead_time_std": 16.9,
+      "pack_size": 6,
+      "cbm_per_unit": 0.103
+    },
+    {
+      "item_id": "IT-0099",
+      "home": "FWD-A",
+      "daily_mean": 10.959,
+      "daily_std": 3.477,
+      "service_level": 0.98,
+      "min_qty": 1102.5,
+      "ophq_qty": 1198.5,
+      "max_qty": 1294.5,
+      "has_policy": true,
+      "lead_time_days": 65.5,
+      "lead_time_std": 16.9,
+      "pack_size": 24,
+      "cbm_per_unit": 0.028
+    },
+    {
+      "item_id": "IT-0100",
+      "home": "FWD-B",
+      "daily_mean": 4.404,
+      "daily_std": 5.091,
+      "service_level": 0.95,
+      "min_qty": 460.2,
+      "ophq_qty": 508.2,
+      "max_qty": 556.2,
+      "has_policy": true,
+      "lead_time_days": 71.8,
+      "lead_time_std": 17.3,
+      "pack_size": 24,
+      "cbm_per_unit": 0.011
+    },
+    {
+      "item_id": "IT-0101",
+      "home": "FWD-A",
+      "daily_mean": 2.308,
+      "daily_std": 17.322,
+      "service_level": 0.95,
+      "min_qty": 441.6,
+      "ophq_qty": 465.6,
+      "max_qty": 489.6,
+      "has_policy": true,
+      "lead_time_days": 65.5,
+      "lead_time_std": 16.9,
+      "pack_size": 12,
+      "cbm_per_unit": 0.033
+    },
+    {
+      "item_id": "IT-0102",
+      "home": "FWD-B",
+      "daily_mean": 2.479,
+      "daily_std": 7.482,
+      "service_level": 0.95,
+      "min_qty": 318.6,
+      "ophq_qty": 336.6,
+      "max_qty": 354.6,
+      "has_policy": true,
+      "lead_time_days": 71.8,
+      "lead_time_std": 17.3,
+      "pack_size": 6,
+      "cbm_per_unit": 0.049
+    },
+    {
+      "item_id": "IT-0103",
+      "home": "FWD-A",
+      "daily_mean": 6.008,
+      "daily_std": 6.904,
+      "service_level": 0.98,
+      "min_qty": 631.6,
+      "ophq_qty": 679.6,
+      "max_qty": 727.6,
+      "has_policy": true,
+      "lead_time_days": 65.5,
+      "lead_time_std": 16.9,
+      "pack_size": 6,
+      "cbm_per_unit": 0.08
+    },
+    {
+      "item_id": "IT-0104",
+      "home": "FWD-A",
+      "daily_mean": 4.933,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 67.9,
+      "ophq_qty": 115.9,
+      "max_qty": 163.9,
+      "has_policy": true,
+      "lead_time_days": 10.3,
+      "lead_time_std": 2.7,
+      "pack_size": 24,
+      "cbm_per_unit": 0.021
+    },
+    {
+      "item_id": "IT-0105",
+      "home": "FWD-B",
+      "daily_mean": 8.032,
+      "daily_std": 11.241,
+      "service_level": 0.98,
+      "min_qty": 812.8,
+      "ophq_qty": 872.8,
+      "max_qty": 932.8,
+      "has_policy": true,
+      "lead_time_days": 55.6,
+      "lead_time_std": 19.6,
+      "pack_size": 6,
+      "cbm_per_unit": 0.031
+    },
+    {
+      "item_id": "IT-0106",
+      "home": "FWD-B",
+      "daily_mean": 7.152,
+      "daily_std": 12.513,
+      "service_level": 0.98,
+      "min_qty": 634.4,
+      "ophq_qty": 685.4,
+      "max_qty": 736.4,
+      "has_policy": true,
+      "lead_time_days": 50.8,
+      "lead_time_std": 13.6,
+      "pack_size": 1,
+      "cbm_per_unit": 0.049
+    },
+    {
+      "item_id": "IT-0107",
+      "home": "STORAGE",
+      "daily_mean": 10.529,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 116.7,
+      "ophq_qty": 212.7,
+      "max_qty": 308.7,
+      "has_policy": false,
+      "lead_time_days": 8.7,
+      "lead_time_std": 1.8,
+      "pack_size": 24,
+      "cbm_per_unit": 0.17
+    },
+    {
+      "item_id": "IT-0108",
+      "home": "STORAGE",
+      "daily_mean": 0.766,
+      "daily_std": 2.077,
+      "service_level": 0.9,
+      "min_qty": 58.0,
+      "ophq_qty": 108.0,
+      "max_qty": 158.0,
+      "has_policy": false,
+      "lead_time_days": 46.3,
+      "lead_time_std": 9.9,
+      "pack_size": 12,
+      "cbm_per_unit": 0.063
+    },
+    {
+      "item_id": "IT-0109",
+      "home": "FWD-B",
+      "daily_mean": 5.702,
+      "daily_std": 15.222,
+      "service_level": 0.98,
+      "min_qty": 563.6,
+      "ophq_qty": 613.6,
+      "max_qty": 663.6,
+      "has_policy": true,
+      "lead_time_days": 50.8,
+      "lead_time_std": 13.6,
+      "pack_size": 6,
+      "cbm_per_unit": 0.011
+    },
+    {
+      "item_id": "IT-0110",
+      "home": "FWD-A",
+      "daily_mean": 6.833,
+      "daily_std": 10.77,
+      "service_level": 0.98,
+      "min_qty": 129.4,
+      "ophq_qty": 177.4,
+      "max_qty": 225.4,
+      "has_policy": true,
+      "lead_time_days": 8.7,
+      "lead_time_std": 1.8,
+      "pack_size": 2,
+      "cbm_per_unit": 0.149
+    },
+    {
+      "item_id": "IT-0111",
+      "home": "STORAGE",
+      "daily_mean": 10.745,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 1010.9,
+      "ophq_qty": 1106.9,
+      "max_qty": 1202.9,
+      "has_policy": false,
+      "lead_time_days": 71.8,
+      "lead_time_std": 17.3,
+      "pack_size": 24,
+      "cbm_per_unit": 0.395
+    },
+    {
+      "item_id": "IT-0112",
+      "home": "FWD-B",
+      "daily_mean": 7.867,
+      "daily_std": 3.6,
+      "service_level": 0.98,
+      "min_qty": 758.9,
+      "ophq_qty": 830.9,
+      "max_qty": 902.9,
+      "has_policy": true,
+      "lead_time_days": 55.6,
+      "lead_time_std": 19.6,
+      "pack_size": 24,
+      "cbm_per_unit": 0.091
+    },
+    {
+      "item_id": "IT-0113",
+      "home": "FWD-B",
+      "daily_mean": 4.415,
+      "daily_std": 2.264,
+      "service_level": 0.98,
+      "min_qty": 59.7,
+      "ophq_qty": 107.7,
+      "max_qty": 155.7,
+      "has_policy": true,
+      "lead_time_days": 8.7,
+      "lead_time_std": 1.8,
+      "pack_size": 24,
+      "cbm_per_unit": 0.129
+    },
+    {
+      "item_id": "IT-0114",
+      "home": "FWD-A",
+      "daily_mean": 7.459,
+      "daily_std": 15.015,
+      "service_level": 0.98,
+      "min_qty": 681.7,
+      "ophq_qty": 735.7,
+      "max_qty": 789.7,
+      "has_policy": true,
+      "lead_time_days": 50.8,
+      "lead_time_std": 13.6,
+      "pack_size": 6,
+      "cbm_per_unit": 0.025
+    },
+    {
+      "item_id": "IT-0115",
+      "home": "FWD-B",
+      "daily_mean": 3.16,
+      "daily_std": 16.952,
+      "service_level": 0.98,
+      "min_qty": 631.8,
+      "ophq_qty": 655.8,
+      "max_qty": 679.8,
+      "has_policy": true,
+      "lead_time_days": 71.8,
+      "lead_time_std": 17.3,
+      "pack_size": 2,
+      "cbm_per_unit": 0.037
+    },
+    {
+      "item_id": "IT-0116",
+      "home": "FWD-B",
+      "daily_mean": 6.724,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 125.4,
+      "ophq_qty": 175.4,
+      "max_qty": 225.4,
+      "has_policy": true,
+      "lead_time_days": 15.7,
+      "lead_time_std": 2.3,
+      "pack_size": 6,
+      "cbm_per_unit": 0.038
+    },
+    {
+      "item_id": "IT-0117",
+      "home": "STORAGE",
+      "daily_mean": 0.599,
+      "daily_std": 0.0,
+      "service_level": 0.9,
+      "min_qty": 55.8,
+      "ophq_qty": 75.8,
+      "max_qty": 95.8,
+      "has_policy": false,
+      "lead_time_days": 71.8,
+      "lead_time_std": 17.3,
+      "pack_size": 12,
+      "cbm_per_unit": 0.139
+    },
+    {
+      "item_id": "IT-0118",
+      "home": "FWD-B",
+      "daily_mean": 3.798,
+      "daily_std": 1.007,
+      "service_level": 0.95,
+      "min_qty": 75.4,
+      "ophq_qty": 123.4,
+      "max_qty": 171.4,
+      "has_policy": true,
+      "lead_time_days": 15.7,
+      "lead_time_std": 2.3,
+      "pack_size": 24,
+      "cbm_per_unit": 0.022
+    },
+    {
+      "item_id": "IT-0119",
+      "home": "STORAGE",
+      "daily_mean": 2.339,
+      "daily_std": 5.44,
+      "service_level": 0.9,
+      "min_qty": 231.8,
+      "ophq_qty": 281.8,
+      "max_qty": 331.8,
+      "has_policy": false,
+      "lead_time_days": 65.5,
+      "lead_time_std": 16.9,
+      "pack_size": 1,
+      "cbm_per_unit": 0.121
+    },
+    {
+      "item_id": "IT-0120",
+      "home": "STORAGE",
+      "daily_mean": 1.105,
+      "daily_std": 6.819,
+      "service_level": 0.9,
+      "min_qty": 33.7,
+      "ophq_qty": 57.7,
+      "max_qty": 81.7,
+      "has_policy": false,
+      "lead_time_days": 10.3,
+      "lead_time_std": 2.7,
+      "pack_size": 24,
+      "cbm_per_unit": 0.018
+    }
+  ],
+  "positions": [
+    {
+      "item_id": "IT-0002",
+      "location": "FWD-A",
+      "onhand": 129.2
+    },
+    {
+      "item_id": "IT-0002",
+      "location": "STORAGE",
+      "onhand": 96.6
+    },
+    {
+      "item_id": "IT-0004",
+      "location": "FWD-A",
+      "onhand": 824.4
+    },
+    {
+      "item_id": "IT-0004",
+      "location": "STORAGE",
+      "onhand": 541.4
+    },
+    {
+      "item_id": "IT-0006",
+      "location": "FWD-A",
+      "onhand": 498.9
+    },
+    {
+      "item_id": "IT-0006",
+      "location": "STORAGE",
+      "onhand": 526.4
+    },
+    {
+      "item_id": "IT-0008",
+      "location": "FWD-B",
+      "onhand": 169.4
+    },
+    {
+      "item_id": "IT-0008",
+      "location": "STORAGE",
+      "onhand": 215.4
+    },
+    {
+      "item_id": "IT-0012",
+      "location": "FWD-B",
+      "onhand": 23.1
+    },
+    {
+      "item_id": "IT-0012",
+      "location": "STORAGE",
+      "onhand": 114.2
+    },
+    {
+      "item_id": "IT-0013",
+      "location": "FWD-A",
+      "onhand": 229.2
+    },
+    {
+      "item_id": "IT-0013",
+      "location": "STORAGE",
+      "onhand": 82.4
+    },
+    {
+      "item_id": "IT-0013",
+      "location": "FWD-B",
+      "onhand": 130.3
+    },
+    {
+      "item_id": "IT-0014",
+      "location": "FWD-B",
+      "onhand": 33.1
+    },
+    {
+      "item_id": "IT-0014",
+      "location": "STORAGE",
+      "onhand": 205.1
+    },
+    {
+      "item_id": "IT-0014",
+      "location": "FWD-A",
+      "onhand": 168.0
+    },
+    {
+      "item_id": "IT-0015",
+      "location": "FWD-A",
+      "onhand": 389.9
+    },
+    {
+      "item_id": "IT-0015",
+      "location": "STORAGE",
+      "onhand": 161.8
+    },
+    {
+      "item_id": "IT-0016",
+      "location": "FWD-B",
+      "onhand": 149.8
+    },
+    {
+      "item_id": "IT-0016",
+      "location": "STORAGE",
+      "onhand": 0.0
+    },
+    {
+      "item_id": "IT-0017",
+      "location": "FWD-B",
+      "onhand": 557.2
+    },
+    {
+      "item_id": "IT-0017",
+      "location": "STORAGE",
+      "onhand": 1653.3
+    },
+    {
+      "item_id": "IT-0018",
+      "location": "FWD-A",
+      "onhand": 780.7
+    },
+    {
+      "item_id": "IT-0018",
+      "location": "STORAGE",
+      "onhand": 882.9
+    },
+    {
+      "item_id": "IT-0018",
+      "location": "FWD-B",
+      "onhand": 434.7
+    },
+    {
+      "item_id": "IT-0019",
+      "location": "FWD-A",
+      "onhand": 343.5
+    },
+    {
+      "item_id": "IT-0019",
+      "location": "STORAGE",
+      "onhand": 1214.9
+    },
+    {
+      "item_id": "IT-0019",
+      "location": "FWD-B",
+      "onhand": 320.6
+    },
+    {
+      "item_id": "IT-0020",
+      "location": "FWD-A",
+      "onhand": 324.4
+    },
+    {
+      "item_id": "IT-0020",
+      "location": "STORAGE",
+      "onhand": 250.8
+    },
+    {
+      "item_id": "IT-0020",
+      "location": "FWD-B",
+      "onhand": 100.2
+    },
+    {
+      "item_id": "IT-0021",
+      "location": "FWD-A",
+      "onhand": 107.0
+    },
+    {
+      "item_id": "IT-0021",
+      "location": "STORAGE",
+      "onhand": 113.6
+    },
+    {
+      "item_id": "IT-0022",
+      "location": "FWD-A",
+      "onhand": 335.8
+    },
+    {
+      "item_id": "IT-0022",
+      "location": "STORAGE",
+      "onhand": 98.8
+    },
+    {
+      "item_id": "IT-0023",
+      "location": "FWD-B",
+      "onhand": 441.9
+    },
+    {
+      "item_id": "IT-0023",
+      "location": "STORAGE",
+      "onhand": 326.7
+    },
+    {
+      "item_id": "IT-0024",
+      "location": "FWD-B",
+      "onhand": 631.6
+    },
+    {
+      "item_id": "IT-0024",
+      "location": "STORAGE",
+      "onhand": 734.2
+    },
+    {
+      "item_id": "IT-0025",
+      "location": "FWD-A",
+      "onhand": 583.0
+    },
+    {
+      "item_id": "IT-0025",
+      "location": "STORAGE",
+      "onhand": 717.0
+    },
+    {
+      "item_id": "IT-0028",
+      "location": "FWD-A",
+      "onhand": 811.3
+    },
+    {
+      "item_id": "IT-0028",
+      "location": "STORAGE",
+      "onhand": 1300.9
+    },
+    {
+      "item_id": "IT-0029",
+      "location": "FWD-B",
+      "onhand": 395.0
+    },
+    {
+      "item_id": "IT-0029",
+      "location": "STORAGE",
+      "onhand": 570.0
+    },
+    {
+      "item_id": "IT-0033",
+      "location": "FWD-B",
+      "onhand": 334.9
+    },
+    {
+      "item_id": "IT-0033",
+      "location": "STORAGE",
+      "onhand": 370.8
+    },
+    {
+      "item_id": "IT-0034",
+      "location": "FWD-B",
+      "onhand": 711.1
+    },
+    {
+      "item_id": "IT-0034",
+      "location": "STORAGE",
+      "onhand": 562.5
+    },
+    {
+      "item_id": "IT-0034",
+      "location": "FWD-A",
+      "onhand": 449.0
+    },
+    {
+      "item_id": "IT-0035",
+      "location": "FWD-B",
+      "onhand": 1226.5
+    },
+    {
+      "item_id": "IT-0035",
+      "location": "STORAGE",
+      "onhand": 1271.4
+    },
+    {
+      "item_id": "IT-0035",
+      "location": "FWD-A",
+      "onhand": 775.5
+    },
+    {
+      "item_id": "IT-0036",
+      "location": "FWD-A",
+      "onhand": 433.9
+    },
+    {
+      "item_id": "IT-0036",
+      "location": "STORAGE",
+      "onhand": 648.9
+    },
+    {
+      "item_id": "IT-0038",
+      "location": "FWD-B",
+      "onhand": 174.0
+    },
+    {
+      "item_id": "IT-0038",
+      "location": "STORAGE",
+      "onhand": 642.5
+    },
+    {
+      "item_id": "IT-0041",
+      "location": "FWD-A",
+      "onhand": 324.2
+    },
+    {
+      "item_id": "IT-0041",
+      "location": "STORAGE",
+      "onhand": 257.3
+    },
+    {
+      "item_id": "IT-0043",
+      "location": "FWD-B",
+      "onhand": 244.1
+    },
+    {
+      "item_id": "IT-0043",
+      "location": "STORAGE",
+      "onhand": 716.8
+    },
+    {
+      "item_id": "IT-0044",
+      "location": "FWD-B",
+      "onhand": 768.7
+    },
+    {
+      "item_id": "IT-0044",
+      "location": "STORAGE",
+      "onhand": 863.4
+    },
+    {
+      "item_id": "IT-0044",
+      "location": "FWD-A",
+      "onhand": 586.7
+    },
+    {
+      "item_id": "IT-0046",
+      "location": "FWD-A",
+      "onhand": 297.1
+    },
+    {
+      "item_id": "IT-0046",
+      "location": "STORAGE",
+      "onhand": 577.1
+    },
+    {
+      "item_id": "IT-0049",
+      "location": "FWD-A",
+      "onhand": 88.1
+    },
+    {
+      "item_id": "IT-0049",
+      "location": "STORAGE",
+      "onhand": 112.6
+    },
+    {
+      "item_id": "IT-0050",
+      "location": "FWD-A",
+      "onhand": 527.7
+    },
+    {
+      "item_id": "IT-0050",
+      "location": "STORAGE",
+      "onhand": 280.3
+    },
+    {
+      "item_id": "IT-0052",
+      "location": "FWD-A",
+      "onhand": 768.4
+    },
+    {
+      "item_id": "IT-0052",
+      "location": "STORAGE",
+      "onhand": 0.0
+    },
+    {
+      "item_id": "IT-0053",
+      "location": "FWD-B",
+      "onhand": 155.7
+    },
+    {
+      "item_id": "IT-0053",
+      "location": "STORAGE",
+      "onhand": 560.9
+    },
+    {
+      "item_id": "IT-0053",
+      "location": "FWD-A",
+      "onhand": 430.9
+    },
+    {
+      "item_id": "IT-0057",
+      "location": "FWD-A",
+      "onhand": 29.9
+    },
+    {
+      "item_id": "IT-0057",
+      "location": "STORAGE",
+      "onhand": 210.1
+    },
+    {
+      "item_id": "IT-0059",
+      "location": "FWD-B",
+      "onhand": 182.2
+    },
+    {
+      "item_id": "IT-0059",
+      "location": "STORAGE",
+      "onhand": 587.3
+    },
+    {
+      "item_id": "IT-0061",
+      "location": "FWD-A",
+      "onhand": 43.2
+    },
+    {
+      "item_id": "IT-0061",
+      "location": "STORAGE",
+      "onhand": 113.6
+    },
+    {
+      "item_id": "IT-0061",
+      "location": "FWD-B",
+      "onhand": 82.4
+    },
+    {
+      "item_id": "IT-0062",
+      "location": "FWD-A",
+      "onhand": 161.8
+    },
+    {
+      "item_id": "IT-0062",
+      "location": "STORAGE",
+      "onhand": 192.6
+    },
+    {
+      "item_id": "IT-0065",
+      "location": "FWD-A",
+      "onhand": 760.6
+    },
+    {
+      "item_id": "IT-0065",
+      "location": "STORAGE",
+      "onhand": 467.0
+    },
+    {
+      "item_id": "IT-0066",
+      "location": "FWD-A",
+      "onhand": 88.1
+    },
+    {
+      "item_id": "IT-0066",
+      "location": "STORAGE",
+      "onhand": 135.2
+    },
+    {
+      "item_id": "IT-0067",
+      "location": "FWD-A",
+      "onhand": 95.9
+    },
+    {
+      "item_id": "IT-0067",
+      "location": "STORAGE",
+      "onhand": 235.7
+    },
+    {
+      "item_id": "IT-0068",
+      "location": "FWD-A",
+      "onhand": 77.0
+    },
+    {
+      "item_id": "IT-0068",
+      "location": "STORAGE",
+      "onhand": 159.8
+    },
+    {
+      "item_id": "IT-0069",
+      "location": "FWD-B",
+      "onhand": 181.8
+    },
+    {
+      "item_id": "IT-0069",
+      "location": "STORAGE",
+      "onhand": 136.8
+    },
+    {
+      "item_id": "IT-0070",
+      "location": "FWD-A",
+      "onhand": 256.5
+    },
+    {
+      "item_id": "IT-0070",
+      "location": "STORAGE",
+      "onhand": 239.7
+    },
+    {
+      "item_id": "IT-0070",
+      "location": "FWD-B",
+      "onhand": 237.4
+    },
+    {
+      "item_id": "IT-0074",
+      "location": "FWD-A",
+      "onhand": 462.1
+    },
+    {
+      "item_id": "IT-0074",
+      "location": "STORAGE",
+      "onhand": 1102.2
+    },
+    {
+      "item_id": "IT-0075",
+      "location": "FWD-B",
+      "onhand": 119.6
+    },
+    {
+      "item_id": "IT-0075",
+      "location": "STORAGE",
+      "onhand": 292.4
+    },
+    {
+      "item_id": "IT-0075",
+      "location": "FWD-A",
+      "onhand": 126.1
+    },
+    {
+      "item_id": "IT-0076",
+      "location": "FWD-A",
+      "onhand": 46.2
+    },
+    {
+      "item_id": "IT-0076",
+      "location": "STORAGE",
+      "onhand": 80.2
+    },
+    {
+      "item_id": "IT-0078",
+      "location": "FWD-A",
+      "onhand": 608.9
+    },
+    {
+      "item_id": "IT-0078",
+      "location": "STORAGE",
+      "onhand": 712.2
+    },
+    {
+      "item_id": "IT-0079",
+      "location": "FWD-A",
+      "onhand": 433.8
+    },
+    {
+      "item_id": "IT-0079",
+      "location": "STORAGE",
+      "onhand": 675.9
+    },
+    {
+      "item_id": "IT-0080",
+      "location": "FWD-A",
+      "onhand": 917.3
+    },
+    {
+      "item_id": "IT-0080",
+      "location": "STORAGE",
+      "onhand": 1243.0
+    },
+    {
+      "item_id": "IT-0081",
+      "location": "FWD-A",
+      "onhand": 36.2
+    },
+    {
+      "item_id": "IT-0081",
+      "location": "STORAGE",
+      "onhand": 145.8
+    },
+    {
+      "item_id": "IT-0082",
+      "location": "FWD-A",
+      "onhand": 76.9
+    },
+    {
+      "item_id": "IT-0082",
+      "location": "STORAGE",
+      "onhand": 45.4
+    },
+    {
+      "item_id": "IT-0083",
+      "location": "FWD-B",
+      "onhand": 1047.3
+    },
+    {
+      "item_id": "IT-0083",
+      "location": "STORAGE",
+      "onhand": 1427.7
+    },
+    {
+      "item_id": "IT-0084",
+      "location": "FWD-B",
+      "onhand": 159.1
+    },
+    {
+      "item_id": "IT-0084",
+      "location": "STORAGE",
+      "onhand": 351.8
+    },
+    {
+      "item_id": "IT-0086",
+      "location": "FWD-A",
+      "onhand": 201.4
+    },
+    {
+      "item_id": "IT-0086",
+      "location": "STORAGE",
+      "onhand": 181.8
+    },
+    {
+      "item_id": "IT-0087",
+      "location": "FWD-B",
+      "onhand": 137.5
+    },
+    {
+      "item_id": "IT-0087",
+      "location": "STORAGE",
+      "onhand": 94.7
+    },
+    {
+      "item_id": "IT-0088",
+      "location": "FWD-A",
+      "onhand": 515.8
+    },
+    {
+      "item_id": "IT-0088",
+      "location": "STORAGE",
+      "onhand": 770.6
+    },
+    {
+      "item_id": "IT-0090",
+      "location": "FWD-B",
+      "onhand": 347.7
+    },
+    {
+      "item_id": "IT-0090",
+      "location": "STORAGE",
+      "onhand": 0.0
+    },
+    {
+      "item_id": "IT-0092",
+      "location": "FWD-B",
+      "onhand": 187.8
+    },
+    {
+      "item_id": "IT-0092",
+      "location": "STORAGE",
+      "onhand": 389.7
+    },
+    {
+      "item_id": "IT-0093",
+      "location": "FWD-A",
+      "onhand": 309.5
+    },
+    {
+      "item_id": "IT-0093",
+      "location": "STORAGE",
+      "onhand": 186.7
+    },
+    {
+      "item_id": "IT-0095",
+      "location": "FWD-B",
+      "onhand": 48.3
+    },
+    {
+      "item_id": "IT-0095",
+      "location": "STORAGE",
+      "onhand": 139.5
+    },
+    {
+      "item_id": "IT-0096",
+      "location": "FWD-B",
+      "onhand": 224.6
+    },
+    {
+      "item_id": "IT-0096",
+      "location": "STORAGE",
+      "onhand": 0.0
+    },
+    {
+      "item_id": "IT-0099",
+      "location": "FWD-A",
+      "onhand": 793.3
+    },
+    {
+      "item_id": "IT-0099",
+      "location": "STORAGE",
+      "onhand": 0.0
+    },
+    {
+      "item_id": "IT-0100",
+      "location": "FWD-B",
+      "onhand": 467.1
+    },
+    {
+      "item_id": "IT-0100",
+      "location": "STORAGE",
+      "onhand": 455.3
+    },
+    {
+      "item_id": "IT-0101",
+      "location": "FWD-A",
+      "onhand": 459.6
+    },
+    {
+      "item_id": "IT-0101",
+      "location": "STORAGE",
+      "onhand": 0.0
+    },
+    {
+      "item_id": "IT-0102",
+      "location": "FWD-B",
+      "onhand": 320.1
+    },
+    {
+      "item_id": "IT-0102",
+      "location": "STORAGE",
+      "onhand": 424.2
+    },
+    {
+      "item_id": "IT-0103",
+      "location": "FWD-A",
+      "onhand": 635.1
+    },
+    {
+      "item_id": "IT-0103",
+      "location": "STORAGE",
+      "onhand": 548.2
+    },
+    {
+      "item_id": "IT-0104",
+      "location": "FWD-A",
+      "onhand": 171.4
+    },
+    {
+      "item_id": "IT-0104",
+      "location": "STORAGE",
+      "onhand": 80.2
+    },
+    {
+      "item_id": "IT-0105",
+      "location": "FWD-B",
+      "onhand": 258.2
+    },
+    {
+      "item_id": "IT-0105",
+      "location": "STORAGE",
+      "onhand": 666.0
+    },
+    {
+      "item_id": "IT-0105",
+      "location": "FWD-A",
+      "onhand": 510.4
+    },
+    {
+      "item_id": "IT-0106",
+      "location": "FWD-B",
+      "onhand": 156.9
+    },
+    {
+      "item_id": "IT-0106",
+      "location": "STORAGE",
+      "onhand": 591.9
+    },
+    {
+      "item_id": "IT-0109",
+      "location": "FWD-B",
+      "onhand": 693.7
+    },
+    {
+      "item_id": "IT-0109",
+      "location": "STORAGE",
+      "onhand": 653.8
+    },
+    {
+      "item_id": "IT-0110",
+      "location": "FWD-A",
+      "onhand": 162.9
+    },
+    {
+      "item_id": "IT-0110",
+      "location": "STORAGE",
+      "onhand": 195.5
+    },
+    {
+      "item_id": "IT-0112",
+      "location": "FWD-B",
+      "onhand": 779.6
+    },
+    {
+      "item_id": "IT-0112",
+      "location": "STORAGE",
+      "onhand": 561.8
+    },
+    {
+      "item_id": "IT-0113",
+      "location": "FWD-B",
+      "onhand": 41.2
+    },
+    {
+      "item_id": "IT-0113",
+      "location": "STORAGE",
+      "onhand": 111.6
+    },
+    {
+      "item_id": "IT-0113",
+      "location": "FWD-A",
+      "onhand": 68.1
+    },
+    {
+      "item_id": "IT-0114",
+      "location": "FWD-A",
+      "onhand": 703.7
+    },
+    {
+      "item_id": "IT-0114",
+      "location": "STORAGE",
+      "onhand": 575.5
+    },
+    {
+      "item_id": "IT-0115",
+      "location": "FWD-B",
+      "onhand": 247.5
+    },
+    {
+      "item_id": "IT-0115",
+      "location": "STORAGE",
+      "onhand": 528.6
+    },
+    {
+      "item_id": "IT-0116",
+      "location": "FWD-B",
+      "onhand": 29.5
+    },
+    {
+      "item_id": "IT-0116",
+      "location": "STORAGE",
+      "onhand": 198.7
+    },
+    {
+      "item_id": "IT-0118",
+      "location": "FWD-B",
+      "onhand": 23.5
+    },
+    {
+      "item_id": "IT-0118",
+      "location": "STORAGE",
+      "onhand": 105.0
+    }
+  ]
+}
