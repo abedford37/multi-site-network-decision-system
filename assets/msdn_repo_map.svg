@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" font-family="Inter, Helvetica, Arial, sans-serif">
+  <rect width="1000" height="640" fill="#FAFAFC"/>
+
+  <text x="40" y="42" font-family="Playfair Display, Georgia, serif" font-size="30" font-weight="700" fill="#1A1A1A">Supply chain decision system</text>
+  <text x="40" y="70" font-size="15" fill="#666666">Five engines that each stand alone, and one umbrella that runs them as a pipeline.</text>
+
+  <!-- MSDN umbrella -->
+  <rect x="40" y="92" width="920" height="66" rx="12" fill="#1A1A1A"/>
+  <text x="60" y="120" font-family="JetBrains Mono, monospace" font-size="12" fill="#E2AD28">repo: multi-site-network-decision-system</text>
+  <text x="60" y="144" font-size="17" font-weight="700" fill="#FFFFFF">MSDN umbrella</text>
+  <text x="945" y="130" text-anchor="end" font-size="13" fill="#D4CEF3">orchestrates the five, vendors their libraries, builds one decision per item</text>
+
+  <!-- drop lines umbrella -> engines -->
+  <g stroke="#C9C9D6" stroke-width="1.5">
+    <line x1="124" y1="158" x2="124" y2="210"/>
+    <line x1="312" y1="158" x2="312" y2="210"/>
+    <line x1="500" y1="158" x2="500" y2="210"/>
+    <line x1="688" y1="158" x2="688" y2="210"/>
+    <line x1="876" y1="158" x2="876" y2="210"/>
+  </g>
+
+  <!-- engine cards -->
+  <!-- card 1 demand -->
+  <g>
+    <rect x="40" y="210" width="168" height="172" rx="11" fill="#FFFFFF" stroke="#0055FF" stroke-width="2.5"/>
+    <rect x="40" y="210" width="168" height="8" rx="4" fill="#0055FF"/>
+    <text x="52" y="240" font-family="JetBrains Mono, monospace" font-size="9.5" fill="#0055FF">demand-forecasting-engine</text>
+    <text x="52" y="264" font-size="14.5" font-weight="700" fill="#1A1A1A">1  Demand</text>
+    <text x="52" y="282" font-size="14.5" font-weight="700" fill="#1A1A1A">Forecasting</text>
+    <text x="52" y="308" font-size="11.5" fill="#666666">classify pattern,</text>
+    <text x="52" y="324" font-size="11.5" fill="#666666">forecast the rate</text>
+    <text x="52" y="366" font-family="JetBrains Mono, monospace" font-size="9.5" fill="#999999">pkg demand_engine</text>
+  </g>
+  <!-- card 2 policy -->
+  <g>
+    <rect x="228" y="210" width="168" height="172" rx="11" fill="#FFFFFF" stroke="#E2AD28" stroke-width="2.5"/>
+    <rect x="228" y="210" width="168" height="8" rx="4" fill="#E2AD28"/>
+    <text x="240" y="240" font-family="JetBrains Mono, monospace" font-size="9.5" fill="#B8850F">inventory-policy-engine</text>
+    <text x="240" y="264" font-size="14.5" font-weight="700" fill="#1A1A1A">2  Inventory</text>
+    <text x="240" y="282" font-size="14.5" font-weight="700" fill="#1A1A1A">Policy</text>
+    <text x="240" y="308" font-size="11.5" fill="#666666">MIN / OPHQ / MAX</text>
+    <text x="240" y="324" font-size="11.5" fill="#666666">per item</text>
+    <text x="240" y="366" font-family="JetBrains Mono, monospace" font-size="9.5" fill="#999999">pkg inventory_policy</text>
+  </g>
+  <!-- card 3 home -->
+  <g>
+    <rect x="416" y="210" width="168" height="172" rx="11" fill="#FFFFFF" stroke="#4CAE4F" stroke-width="2.5"/>
+    <rect x="416" y="210" width="168" height="8" rx="4" fill="#4CAE4F"/>
+    <text x="428" y="240" font-family="JetBrains Mono, monospace" font-size="9.5" fill="#39843B">home-assignment-engine</text>
+    <text x="428" y="264" font-size="14.5" font-weight="700" fill="#1A1A1A">3  Home</text>
+    <text x="428" y="282" font-size="14.5" font-weight="700" fill="#1A1A1A">Assignment</text>
+    <text x="428" y="308" font-size="11.5" fill="#666666">slot to buildings,</text>
+    <text x="428" y="324" font-size="11.5" fill="#666666">park the tail</text>
+    <text x="428" y="366" font-family="JetBrains Mono, monospace" font-size="9.5" fill="#999999">pkg home_engine</text>
+  </g>
+  <!-- card 4 container -->
+  <g>
+    <rect x="604" y="210" width="168" height="172" rx="11" fill="#FFFFFF" stroke="#E92063" stroke-width="2.5"/>
+    <rect x="604" y="210" width="168" height="8" rx="4" fill="#E92063"/>
+    <text x="616" y="240" font-family="JetBrains Mono, monospace" font-size="9.5" fill="#B21A4C">container-network-engine</text>
+    <text x="616" y="264" font-size="14.5" font-weight="700" fill="#1A1A1A">4  Container</text>
+    <text x="616" y="282" font-size="14.5" font-weight="700" fill="#1A1A1A">Routing</text>
+    <text x="616" y="308" font-size="11.5" fill="#666666">route inbound to</text>
+    <text x="616" y="324" font-size="11.5" fill="#666666">building and day</text>
+    <text x="616" y="366" font-family="JetBrains Mono, monospace" font-size="9.5" fill="#999999">pkg container_engine</text>
+  </g>
+  <!-- card 5 transfer -->
+  <g>
+    <rect x="792" y="210" width="168" height="172" rx="11" fill="#FFFFFF" stroke="#7A5CFF" stroke-width="2.5"/>
+    <rect x="792" y="210" width="168" height="8" rx="4" fill="#7A5CFF"/>
+    <text x="804" y="240" font-family="JetBrains Mono, monospace" font-size="9" fill="#5B3EDB">transfer-replenishment-engine</text>
+    <text x="804" y="264" font-size="14.5" font-weight="700" fill="#1A1A1A">5  Transfer +</text>
+    <text x="804" y="282" font-size="14.5" font-weight="700" fill="#1A1A1A">Reverse Replen</text>
+    <text x="804" y="308" font-size="11.5" fill="#666666">the day's moves</text>
+    <text x="804" y="324" font-size="11.5" fill="#666666">under capacity</text>
+    <text x="804" y="366" font-family="JetBrains Mono, monospace" font-size="9.5" fill="#999999">pkg transfer_engine</text>
+  </g>
+
+  <!-- pipeline arrows between engines -->
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#1A1A1A"/>
+    </marker>
+  </defs>
+  <g stroke="#1A1A1A" stroke-width="2" marker-end="url(#arrow)">
+    <line x1="208" y1="296" x2="226" y2="296"/>
+    <line x1="396" y1="296" x2="414" y2="296"/>
+    <line x1="584" y1="296" x2="602" y2="296"/>
+    <line x1="772" y1="296" x2="790" y2="296"/>
+  </g>
+  <g font-size="9" fill="#666666" text-anchor="middle" font-style="italic">
+    <text x="217" y="288">forecast</text>
+    <text x="405" y="288">OPHQ</text>
+    <text x="593" y="288">homes</text>
+    <text x="781" y="288">ETAs</text>
+  </g>
+
+  <!-- up ticks engines -> catalog -->
+  <g stroke="#C9C9D6" stroke-width="1.5">
+    <line x1="124" y1="382" x2="124" y2="452"/>
+    <line x1="312" y1="382" x2="312" y2="452"/>
+    <line x1="500" y1="382" x2="500" y2="452"/>
+    <line x1="688" y1="382" x2="688" y2="452"/>
+    <line x1="876" y1="382" x2="876" y2="452"/>
+  </g>
+
+  <!-- shared catalog -->
+  <rect x="40" y="452" width="920" height="60" rx="12" fill="#FFFFFF" stroke="#D4CEF3" stroke-width="2.5"/>
+  <text x="60" y="478" font-family="JetBrains Mono, monospace" font-size="12" fill="#7A5CFF">shared catalog</text>
+  <text x="60" y="499" font-size="13" fill="#1A1A1A">single source of truth: item ids IT-0001 upward, one FWD-A / FWD-B / STORAGE network, demand histories and geography</text>
+
+  <text x="40" y="556" font-size="13" fill="#666666">Dependency order left to right. Every engine draws from the one catalog above the line and is orchestrated by the umbrella. The</text>
+  <text x="40" y="576" font-size="13" fill="#666666">umbrella vendors each engine's library, so a decision made in one stage is the same item and the same place in the next.</text>
+</svg>
